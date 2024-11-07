@@ -1,0 +1,17 @@
+.feature-section {
+    padding: 40px;
+    text-align: center;
+}
+.feature-section h2 {
+    font-size: 2em;
+    color: #333;
+}
+.feature-section p {
+    font-size: 1.1em;
+    color: #666;
+}
+.feature-section img {
+    max-width: 25%;
+    height: 30%;
+    margin-top: 20px;
+}

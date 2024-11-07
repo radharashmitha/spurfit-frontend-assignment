@@ -1,0 +1,50 @@
+.mealplans {
+    padding: 20px;
+    background-color: #f9f9f9; /* Adjust this color as per your theme */
+    color: #333; /* Text color */
+}
+
+.mealplans-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2c3e50; /* Title color */
+}
+
+.mealplans-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.mealplans-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.2s;
+}
+
+.mealplans-item:hover {
+    transform: translateY(-5px);
+}
+
+.mealplans-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #34495e; /* Heading color */
+}
+
+.mealplans-description {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.mealplans-calories {
+    font-size: 14px;
+    font-style: italic;
+    color: #888;
+}
